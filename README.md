@@ -6,17 +6,28 @@ I used four different models: Support Vector Classifier (SVC), Random Forest, XG
 
 # Required libraries
 streamlit
+
 numpy
+
 pandas
+
 sounddevice
+
 librosa
+
 scikit-learn
+
 xgboost
+
 seaborn
+
 matplotlib
+
 scipy
 
 # How to run this project
 open app.py
+
 open Terminal (note! terminal directory shoud be of app.py)
+
 Type => streamlit run app.py
