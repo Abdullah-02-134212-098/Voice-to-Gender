@@ -26,8 +26,9 @@ matplotlib
 scipy
 
 # How to run this project
-open app.py
 
-open Terminal (note! terminal directory shoud be of app.py)
+Open The Project Folder In Your IDE
 
-Type => streamlit run app.py
+Open Terminal 
+
+Type And Eenter => streamlit run app.py
