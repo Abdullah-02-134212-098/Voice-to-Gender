@@ -31,4 +31,4 @@ Open The Project Folder In Your IDE
 
 Open Terminal 
 
-Type And Eenter => streamlit run app.py
+Type And Enter => streamlit run app.py
