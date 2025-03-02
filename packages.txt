@@ -1,3 +1,0 @@
-portaudio19-dev
-ffmpeg
-libsndfile1
