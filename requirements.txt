@@ -8,3 +8,4 @@ librosa
 matplotlib
 seaborn
 scipy
+libasound2-dev
