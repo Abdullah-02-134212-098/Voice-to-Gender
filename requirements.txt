@@ -1,9 +1,10 @@
 streamlit
 numpy
 pandas
+scikit-learn
+xgboost==1.7.6
 sounddevice
 librosa
-scikit-learn
 matplotlib
 seaborn
-joblib
+scipy
