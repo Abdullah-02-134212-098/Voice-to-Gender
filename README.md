@@ -1,4 +1,4 @@
-# 🎤 Voice-to-Gender Classification System  
+# 🎤 Voice-To-Gender Classification System  
 An advanced voice recognition system that predicts gender from voice input using multiple machine learning models. It supports both real-time microphone input and uploaded audio files, with an integrated feedback loop for retraining on incorrect predictions.  
 
 ## 🚀 Features  
