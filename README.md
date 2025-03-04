@@ -1,34 +1,39 @@
-# 🎤 Voice-to-Gender Classification System
-This project focuses on developing an advanced voice recognition system that combines multiple machine learning models to achieve high accuracy and retraining on failed predictions. The voice input will be sourced from Mike and can also be uploaded for processing.
+# 🎤 Voice-to-Gender Classification System  
+An advanced voice recognition system that predicts gender from voice input using multiple machine learning models. It supports both real-time microphone input and uploaded audio files, with an integrated feedback loop for retraining on incorrect predictions.  
 
-# Model
-I used four different models: Support Vector Classifier (SVC), Random Forest, XGBoost, and a Stacking Model in which i used Logistic Regression that combines these classifiers for improved accuracy.
+## 🚀 Features  
+✅ Predicts gender from voice recordings using ML models  
+✅ Supports real-time audio input via microphone  
+✅ Allows audio file uploads for processing  
+✅ Uses a Stacking Model for improved accuracy  
+✅ Enables retraining on incorrect predictions  
+✅ Interactive and user-friendly Streamlit interface  
 
-# Required libraries
-streamlit
+## 🧠 Machine Learning Models  
+This project leverages four powerful classifiers to achieve high accuracy:  
+🔹 **Support Vector Classifier (SVC)**  
+🔹 **Random Forest**  
+🔹 **XGBoost**  
+🔹 **Stacking Model** (with Logistic Regression as a meta-classifier)  
 
-numpy
+## 📦 Required Libraries  
+Ensure you have the following dependencies installed before running the project:  
+```bash
+pip install streamlit numpy pandas sounddevice librosa scikit-learn xgboost seaborn matplotlib scipy
+```
 
-pandas
+## 🚀 How to Run  
+1️⃣ **Clone the repository**  
+```bash
+https://github.com/Abdullah-02-134212-098/Voice-To-Gender.git
+```
 
-sounddevice
+2️⃣ **Run the application**
+```bash
+streamlit run app.py
+```
 
-librosa
+3️⃣ **Interact with the interface and start classifying voice recordings! 🎙️**
 
-scikit-learn
 
-xgboost
 
-seaborn
-
-matplotlib
-
-scipy
-
-# How to run this project
-
-Open The Project Folder In Your IDE
-
-Open Terminal 
-
-Type And Enter => streamlit run app.py
